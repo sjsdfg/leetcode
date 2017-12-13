@@ -2,6 +2,7 @@ import java.util.LinkedList;
 
 /**
  * Created by Joe on 2017/12/12.
+ * https://leetcode.com/problems/baseball-game/discuss/
  */
 public class P682 {
     public int calPoints(String[] ops) {
