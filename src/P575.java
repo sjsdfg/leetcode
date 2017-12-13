@@ -3,6 +3,7 @@ import java.util.Set;
 
 /**
  * Created by Joe on 2017/12/13.
+ * https://leetcode.com/problems/distribute-candies/description/
  */
 public class P575 {
     public int distributeCandies(int[] candies) {
