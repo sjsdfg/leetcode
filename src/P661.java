@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by Joe on 2018/3/15.
  * 661. Image Smoother
- * https://leetcode.com/problems/image-smoother/description/
+ * https://leetcode.com/problems/image-smoother/description/v
  */
 public class P661 {
     private int[][] directions = new int[][] {
