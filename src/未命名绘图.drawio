@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2023-05-17T07:13:53.091Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="y0632oQPwWtOTHIR307-" version="21.3.0" type="github">
+  <diagram name="第 1 页" id="wrZkh5S_9BnS5etZfvfI">
+    <mxGraphModel dx="1026" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OpyPKxUjwMudE94fC2LV-1" value="用户" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="157.94642857142856" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-2" value="业务后端" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197.94642857142856" y="50" width="150.6845238095238" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-3" value="Redis" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348.6309523809524" y="50" width="150.6845238095238" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-4" value="定时任务" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="499.3154761904762" y="50" width="150.6845238095238" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OpyPKxUjwMudE94fC2LV-4" source="OpyPKxUjwMudE94fC2LV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75.2845238095237" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-6" value="RedSchedule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="OpyPKxUjwMudE94fC2LV-4">
+          <mxGeometry x="33.01" y="40" width="84.66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="OpyPKxUjwMudE94fC2LV-4" source="OpyPKxUjwMudE94fC2LV-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72.6845238095238" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-28" value="获取房间交互数据&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;（点赞、举手、进房数据）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="OpyPKxUjwMudE94fC2LV-4">
+          <mxGeometry x="12.674523809523796" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="OpyPKxUjwMudE94fC2LV-4" source="OpyPKxUjwMudE94fC2LV-31" target="OpyPKxUjwMudE94fC2LV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-31" value="获取房间基本信息&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;（麦上人数、开播时间）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="OpyPKxUjwMudE94fC2LV-4">
+          <mxGeometry x="14.01" y="160" width="117.33" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="OpyPKxUjwMudE94fC2LV-4" source="OpyPKxUjwMudE94fC2LV-32" target="OpyPKxUjwMudE94fC2LV-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-32" value="拉取所有开播&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;直播间&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="OpyPKxUjwMudE94fC2LV-4">
+          <mxGeometry x="15.34" y="100" width="114.66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OpyPKxUjwMudE94fC2LV-36" value="获取房主测试号身份" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="OpyPKxUjwMudE94fC2LV-4">
+          <mxGeometry x="12.67" y="330" width="117.33" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
